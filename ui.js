@@ -12,7 +12,10 @@ class UI{
                         <a href="${user.html_url}" target="_blank" class="btn btn-primary btn-block">View User</a> 
                     </div>
                     <div class = "col-md-9">
-                        
+                        <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
+                        <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
+                        <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
+                        <span class="badge badge-primary">Public Repos: ${user.public_repos}</span>
                     </div>
                 </div>
             </div>
