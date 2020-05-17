@@ -31,15 +31,21 @@ class UI{
         `;
     }
 
+    //Show alert message when user not found 
     showAlert(message, className){
+        //to clear any existing alerts
         this.clearALert();
+        //create div with given className and add text message
         const div = document.createElement('div');
         div.className = className;
         div.appendChild(document.createTextNode(message));
+        //parent and search box
         const container = document.querySelector('.searchContainer');
         const search = document.querySelector('.search');
         container.insertBefore(div, search);
 
+        //timeout after 3 sec
+        
     }
 
     clearALert(){
